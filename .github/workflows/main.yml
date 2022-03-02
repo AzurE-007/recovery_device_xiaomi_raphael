@@ -31,7 +31,7 @@ jobs:
 
     steps:
        - name: Checkout
-         uses: actions/checkout@android-9.0
+         uses: actions/checkout@master
          
        - name: Initializing environment
          run: |
